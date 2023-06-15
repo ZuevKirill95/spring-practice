@@ -7,21 +7,7 @@
 
 Создать проект, описанный в диаграмме.
 
-```puml
-@startuml
-participant Application as App
-participant BankClientsApp as BankClients
-participant TransferByPhoneApp as TransferByPhoneApp
-database    Database    as DB
-App -> BankClients : Проверить, что пользователь является клиентом банка
-BankClients -> App : Вернуть ответ (является или не является)
-alt если пользователь не является клиентом банка
-App -> App: Вывести на экран ошибку
-end
-App -> TransferByPhoneApp : Перевести сумму по номеру телефона
-App -> DB : Записать в Базу данных кому и на какую сумму был перевод
-@enduml
-```
+![](resources/diagram.png)
 
 - App - ваше приложение.
 - BankClientsApp - стороннее приложение. Предоставляет информацию о клиентах банка.
