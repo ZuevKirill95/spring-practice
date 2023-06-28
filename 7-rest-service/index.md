@@ -25,3 +25,9 @@
     - удаление продукта из корзины;
     - оплата
 3. Создать файл `requests.http`. Указать в нем все REST-запросы.
+
+### Примечания
+
+- Если вы **не** используете IntelliJ IDEA Ultimate Edition, то отправка REST-запросов из IDEA будет недоступна. Можете
+  использовать плагин
+  для [Visual Studio](https://visualstudio.microsoft.com/ru/) - [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
