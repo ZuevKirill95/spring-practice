@@ -4,7 +4,7 @@
 
 ## Домашнее задание
 
-1. Установить Базу Данных PosgreSQL https://www.postgresql.org/download/.
+1. Установить Базу Данных PostgreSQL https://www.postgresql.org/download/.
 2. Создать таблицы в БД. Используйте готовые [SQL-скрипты](data.sql). Вместо _<схема>_ напишите
    _products_фамилия_инициалы_.
    Пример: `products_zuev_kd`
