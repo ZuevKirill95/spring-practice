@@ -20,6 +20,7 @@ create table <схема>.clients
     name     varchar(255) not null,
     username varchar(255) not null,
     password varchar(255) not null,
+    email    varchar(255),
     cart_id  integer      not null
     constraint client_cart_id_fk
     references <схема>.carts
