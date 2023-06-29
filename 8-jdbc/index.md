@@ -16,4 +16,4 @@
 ### Примечания:
 
 - Для подключения к БД используйте
-  URL `jdbc:postgresql://localhost:5432/postgres?schema=<cхема>&user=postgres&password=root`
+  URL `jdbc:postgresql://localhost:5432/postgres?currentSchema=<cхема>&user=postgres&password=root`
