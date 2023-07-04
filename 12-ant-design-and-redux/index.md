@@ -1,4 +1,4 @@
-# React
+# Ant Design и React-Redux
 
 - [Исходный код из лекции](https://github.com/ZuevKirill95/spring-practice-source-code/tree/main/ant-design)
 
