@@ -14,4 +14,4 @@
 12. [Ant Design и React-Redux](12-ant-design-and-redux/index.md)
 13. [Axios, React-Router](13-axios-and-react-router/index.md)
 14. [Введение в Spring Security](14-spring-security/index.md)
-15. [Разработка учебного проекта](15-project)
+15. [Разработка учебного проекта](15-project/index.md)
